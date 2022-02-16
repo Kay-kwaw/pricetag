@@ -1,0 +1,133 @@
+.PriceTag-Plan
+{
+    width:300px ;
+    border-radius: 25px;
+    box-shadow:0 0 5px rgba(0,0,0,0.2) ;
+    overflow: hidden;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #555555;
+    margin: 15px;
+}
+.PriceTag-Plan--Highlighted
+{
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+    transform: scale(1.05);
+    
+}
+
+
+.PriceTag-header
+{
+    padding: 25px;
+    background: #6b2635;
+    color: white;
+}
+.PriceTag-title,
+.PriceTag-Summary
+{
+    margin: 0;
+    text-align: center;
+}
+.PriceTag-title
+{
+    font-size: 1.5em;
+    font-weight: 400;
+}
+.PriceTag-Summary
+{
+    font-size: 1.0em;
+    font-weight: 300;
+}
+.PricingTag-description
+{
+    margin: 25px;
+}
+.PriceTag-list
+{
+    padding: 0;
+    margin:0 ;
+}
+.PriceTag-features
+{
+    list-style: none;
+    margin: 0;
+    padding-left: 25px;
+    position: relative;
+    font-size: 0.9em;
+}
+.PriceTag-features:not(:last-child)
+{
+    margin-bottom: 0.5em;
+}
+.PriceTag-features::before
+{
+    content: "\2714";
+    color:#6b2635;
+    left: 0;
+    position: absolute;
+}
+.PriceTag-actions
+{
+    border-top: 1px solid white;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+
+}
+.PriceTag-Button
+{
+    display: inline-block;
+    margin: 15px auto;
+    padding: 8px 20px;
+    text-decoration: none;
+    color: #6b2635;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid #6b2635;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    font-weight: bold;
+
+}
+.PriceTag-Button:hover
+{
+    background: #6b2635;
+    color: white;
+}
+
+.PriceTag-cost
+{
+    margin: 0;
+    text-align: center;
+    color: black;
+    font-size: 1.7em;
+    line-height: 1.5em;
+   
+}
+
+.PriceTag-text
+{
+    margin: 0%;
+    text-align: center;
+    color: black;
+    line-height: 2em;
+
+}
+.PriceTag-Plan-Specialtext
+{
+    padding: 18px;
+    text-align: center;
+    font-weight: bold;
+    background: #361018;
+    box-shadow: 0 0 10 rgba(0,0,0,0.2) inset;
+}
+
+.container
+{
+    padding: 10px ;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
